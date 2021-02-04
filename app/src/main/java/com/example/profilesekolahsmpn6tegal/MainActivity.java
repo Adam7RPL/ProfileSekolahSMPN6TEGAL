@@ -83,4 +83,29 @@ public class MainActivity extends AppCompatActivity {
 
         return false;
     }
+    public void profil(View view){
+        Intent intent=new Intent(MainActivity.this, ProfilActivity.class);
+        startActivity(intent);
+    }
+    public void prestasi(View view){
+        Intent intent=new Intent(MainActivity.this, PrestasiActivity.class);
+        startActivity(intent);
+    }
+    public void informasi(View view){
+        Intent intent=new Intent(MainActivity.this, InformasiActivity.class);
+        startActivity(intent);
+    }
+    public void tugas(View view){
+        Intent intent=new Intent(MainActivity.this, TugasActivity.class);
+        startActivity(intent);
+    }
+    public void ekstrakulikuler(View view){
+        Intent intent=new Intent(MainActivity.this, EkstrakulikulerActivity.class);
+        startActivity(intent);
+    }
+    public void absen(View view){
+        Intent intent=new Intent(MainActivity.this, AbsenActivity.class);
+        startActivity(intent);
+    }
+
 }

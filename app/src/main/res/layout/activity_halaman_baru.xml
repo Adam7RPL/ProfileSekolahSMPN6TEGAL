@@ -59,7 +59,8 @@
                     android:layout_width="95dp"
                     android:layout_height="95dp"
                     android:src="@drawable/profil"
-                    android:background="@color/white">
+                    android:background="@color/white"
+                    android:onClick="profil">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -75,7 +76,8 @@
                     android:layout_height="95dp"
                     android:layout_marginTop="40dp"
                     android:background="@color/white"
-                    android:src="@drawable/prestasi">
+                    android:src="@drawable/prestasi"
+                    android:onClick="prestasi">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -90,7 +92,8 @@
                     android:layout_height="95dp"
                     android:layout_marginTop="40dp"
                     android:src="@drawable/promote"
-                    android:background="@color/white">
+                    android:background="@color/white"
+                    android:onClick="informasi">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -112,7 +115,8 @@
                     android:layout_width="95dp"
                     android:layout_height="95dp"
                     android:src="@drawable/clipboard"
-                    android:background="@color/white">
+                    android:background="@color/white"
+                    android:onClick="tugas">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -127,7 +131,8 @@
                     android:layout_height="95dp"
                     android:layout_marginTop="40dp"
                     android:src="@drawable/ekskul"
-                    android:background="@color/white">
+                    android:background="@color/white"
+                    android:onClick="ekstrakulikuler">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -137,20 +142,22 @@
                     android:textStyle="bold"
                     android:textColor="@color/black">
                 </TextView>
+
                 <ImageView
                     android:layout_width="95dp"
                     android:layout_height="95dp"
                     android:layout_marginTop="40dp"
-                    android:src="@drawable/absen"
-                    android:background="@color/white">
-                </ImageView>
+                    android:background="@color/white"
+                    android:src="@drawable/absen"></ImageView>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Absen"
                     android:textSize="15dp"
                     android:textStyle="bold"
-                    android:textColor="@color/black">
+                    android:textColor="@color/black"
+                    android:onClick="absen">
                 </TextView>
             </LinearLayout>
         </LinearLayout>
