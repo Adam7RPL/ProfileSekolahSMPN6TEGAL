@@ -8,7 +8,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="240dp"
-        android:background="#E9E42F22"
+        android:background="@drawable/gerbang"
         >
     </ImageView>
     <LinearLayout
@@ -21,18 +21,13 @@
             android:layout_weight="1"
             android:orientation="vertical"
             android:gravity="center">
-            <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:src="@drawable/school"
-                >
-            </ImageView>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="SMPN 6 TEGAL"
                 android:textStyle="bold"
-                android:textColor="@color/white"
+                android:textColor="#FFD700"
                 android:textSize="45dp">
             </TextView>
             <TextView
@@ -40,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:text="Sekolah Adiwiata"
                 android:textStyle="bold"
-                android:textColor="@color/white"
+                android:textColor="#FFD700"
                 android:textSize="20dp">
             </TextView>
         </LinearLayout>
@@ -54,12 +49,13 @@
                 android:layout_width="0dp"
                 android:orientation="vertical"
                 android:layout_height="match_parent"
+                android:background="#673AB7"
                 android:gravity="center_horizontal">
                 <ImageView
                     android:layout_width="95dp"
                     android:layout_height="95dp"
                     android:src="@drawable/profil"
-                    android:background="@color/white"
+                    android:background="#673AB7"
                     android:onClick="profil">
                 </ImageView>
                 <TextView
@@ -68,14 +64,14 @@
                     android:text="Profil"
                     android:textSize="15dp"
                     android:textStyle="bold"
-                    android:textColor="@color/black">
+                    android:textColor="@color/white">
                 </TextView>
 
                 <ImageView
                     android:layout_width="95dp"
                     android:layout_height="95dp"
                     android:layout_marginTop="40dp"
-                    android:background="@color/white"
+                    android:background="#673AB7"
                     android:src="@drawable/prestasi"
                     android:onClick="prestasi">
                 </ImageView>
@@ -85,14 +81,14 @@
                     android:text="Prestasi"
                     android:textSize="15dp"
                     android:textStyle="bold"
-                    android:textColor="@color/black">
+                    android:textColor="@color/white">
                 </TextView>
                 <ImageView
                     android:layout_width="95dp"
                     android:layout_height="95dp"
                     android:layout_marginTop="40dp"
                     android:src="@drawable/promote"
-                    android:background="@color/white"
+                    android:background="#673AB7"
                     android:onClick="informasi">
                 </ImageView>
                 <TextView
@@ -101,7 +97,7 @@
                     android:text="Informasi"
                     android:textSize="15dp"
                     android:textStyle="bold"
-                    android:textColor="@color/black">
+                    android:textColor="@color/white">
                 </TextView>
 
             </LinearLayout>
@@ -109,13 +105,14 @@
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:orientation="vertical"
+                android:background="#673AB7"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal">
                 <ImageView
                     android:layout_width="95dp"
                     android:layout_height="95dp"
                     android:src="@drawable/clipboard"
-                    android:background="@color/white"
+                    android:background="#673AB7"
                     android:onClick="tugas">
                 </ImageView>
                 <TextView
@@ -124,14 +121,14 @@
                     android:text="Tugas"
                     android:textSize="15dp"
                     android:textStyle="bold"
-                    android:textColor="@color/black">
+                    android:textColor="@color/white">
                 </TextView>
                 <ImageView
                     android:layout_width="95dp"
                     android:layout_height="95dp"
                     android:layout_marginTop="40dp"
-                    android:src="@drawable/ekskul"
-                    android:background="@color/white"
+                    android:src="@drawable/ekstra"
+                    android:background="#673AB7"
                     android:onClick="ekstrakulikuler">
                 </ImageView>
                 <TextView
@@ -140,15 +137,18 @@
                     android:text="Ekstrakulikuler"
                     android:textSize="15dp"
                     android:textStyle="bold"
-                    android:textColor="@color/black">
+                    android:textColor="@color/white">
                 </TextView>
 
                 <ImageView
                     android:layout_width="95dp"
                     android:layout_height="95dp"
                     android:layout_marginTop="40dp"
-                    android:background="@color/white"
-                    android:src="@drawable/absen"></ImageView>
+                    android:background="#673AB7"
+                    android:src="@drawable/absensi"
+                    android:onClick="absen">
+
+                </ImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -156,8 +156,7 @@
                     android:text="Absen"
                     android:textSize="15dp"
                     android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:onClick="absen">
+                    android:textColor="@color/white">
                 </TextView>
             </LinearLayout>
         </LinearLayout>
