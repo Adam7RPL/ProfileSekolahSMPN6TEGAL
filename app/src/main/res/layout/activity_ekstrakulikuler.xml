@@ -21,7 +21,9 @@
         android:textColor="@color/white"
         android:layout_gravity="center"
         android:gravity="center"
-        android:background="#673AB7"
+        android:background="#673AB7">
+
+    </TextView>
 
     </LinearLayout>
 
