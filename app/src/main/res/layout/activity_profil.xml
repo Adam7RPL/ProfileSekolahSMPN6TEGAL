@@ -261,7 +261,7 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
-                    android:text="Tegal Timur"
+                    android:text="Tegal Barat"
                     android:textSize="15dp" />
 
 
