@@ -8,7 +8,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="240dp"
-        android:background="#0000FF"
+        android:background="@drawable/kumpulanguru"
         >
     </ImageView>
     <LinearLayout
@@ -21,6 +21,11 @@
             android:layout_weight="1"
             android:orientation="vertical"
             android:gravity="center">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/logosmp6">
+            </ImageView>
 
             <TextView
                 android:layout_width="wrap_content"

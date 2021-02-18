@@ -22,7 +22,7 @@
             android:layout_height="133dp"
             android:layout_gravity="center"
             android:gravity="center"
-            android:src="@drawable/ideal"/>
+            android:src="@drawable/logosmp6"/>
     </LinearLayout>
 
     <EditText
