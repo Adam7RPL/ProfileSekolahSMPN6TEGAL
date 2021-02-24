@@ -8,7 +8,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:paddingTop="20dp">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -23,7 +24,7 @@
                     android:layout_height="80dp"
                     android:orientation="vertical"
                     android:gravity="center"
-                    android:background="#03A9F4">
+                    android:background="#FFD700">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -45,16 +46,19 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="#03A9F4"
+                        android:background="@color/white"
                         android:gravity="center_horizontal"
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
+                            android:layout_width="135dp"
+                            android:layout_height="135dp"
                             android:layout_marginTop="20dp"
-                            android:background="#03A9F4"
-                            android:src="@drawable/football"></ImageView>
+                            android:background="@color/white"
+                            android:src="@drawable/football"
+                            android:onClick="futsal">
+
+                        </ImageView>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -65,11 +69,14 @@
                             android:textStyle="bold"></TextView>
 
                         <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
+                            android:layout_width="135dp"
+                            android:layout_height="135dp"
                             android:layout_marginTop="40dp"
-                            android:background="#03A9F4"
-                            android:src="@drawable/volly"></ImageView>
+                            android:background="@color/white"
+                            android:src="@drawable/volly"
+                            android:onClick="volly">
+
+                        </ImageView>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -80,11 +87,14 @@
                             android:textStyle="bold" />
 
                         <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
+                            android:layout_width="135dp"
+                            android:layout_height="135dp"
                             android:layout_marginTop="30dp"
-                            android:background="#03A9F4"
-                            android:src="@drawable/basket"></ImageView>
+                            android:background="@color/white"
+                            android:src="@drawable/basket"
+                            android:onClick="basket">
+
+                        </ImageView>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -99,16 +109,19 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="#03A9F4"
+                        android:background="@color/white"
                         android:gravity="center_horizontal"
                         android:orientation="vertical">
 
                         <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
+                            android:layout_width="135dp"
+                            android:layout_height="135dp"
                             android:layout_marginTop="100dp"
-                            android:background="#03A9F4"
-                            android:src="@drawable/drumbnd"></ImageView>
+                            android:background="@color/white"
+                            android:src="@drawable/drumbnd"
+                            android:onClick="marchingband">
+
+                        </ImageView>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -119,11 +132,14 @@
                             android:textStyle="bold"></TextView>
 
                         <ImageView
-                            android:layout_width="170dp"
+                            android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_marginTop="70dp"
-                            android:background="#03A9F4"
-                            android:src="@drawable/silat"></ImageView>
+                            android:background="@color/white"
+                            android:src="@drawable/silat"
+                            android:onClick="silat">
+
+                        </ImageView>
 
                         <TextView
                             android:layout_width="wrap_content"
