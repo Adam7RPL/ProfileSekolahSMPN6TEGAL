@@ -95,16 +95,16 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(MainActivity.this, InformasiActivity.class);
         startActivity(intent);
     }
-    public void tugas(View view){
-        Intent intent=new Intent(MainActivity.this, TugasActivity.class);
+    public void visidanmisi(View view){
+        Intent intent=new Intent(MainActivity.this, VisidanmisiActivity.class);
         startActivity(intent);
     }
     public void ekstrakulikuler(View view){
         Intent intent=new Intent(MainActivity.this, EkstrakulikulerActivity.class);
         startActivity(intent);
     }
-    public void absen(View view){
-        Intent intent=new Intent(MainActivity.this, AbsenActivity.class);
+    public void agenda(View view){
+        Intent intent=new Intent(MainActivity.this, AgendaActivity.class);
         startActivity(intent);
     }
 

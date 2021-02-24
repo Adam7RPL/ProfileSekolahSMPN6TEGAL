@@ -25,8 +25,8 @@ public class HalamanBaruActivity extends AppCompatActivity {
         Intent intent=new Intent(HalamanBaruActivity.this, InformasiActivity.class);
         startActivity(intent);
     }
-    public void tugas(View view){
-        Intent intent=new Intent(HalamanBaruActivity.this, TugasActivity.class);
+    public void visidanmisi(View view){
+        Intent intent=new Intent(HalamanBaruActivity.this, VisidanmisiActivity.class);
         startActivity(intent);
     }
 
@@ -34,8 +34,8 @@ public class HalamanBaruActivity extends AppCompatActivity {
         Intent intent=new Intent(HalamanBaruActivity.this, EkstrakulikulerActivity.class);
         startActivity(intent);
     }
-    public void absen(View view){
-        Intent intent=new Intent(HalamanBaruActivity.this, AbsenActivity.class);
+    public void agenda(View view){
+        Intent intent=new Intent(HalamanBaruActivity.this, AgendaActivity.class);
         startActivity(intent);
     }
 
