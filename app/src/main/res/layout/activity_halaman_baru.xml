@@ -71,7 +71,7 @@
                             android:layout_height="95dp"
                             android:background="@color/white"
                             android:onClick="profil"
-                            android:src="@drawable/profil"></ImageView>
+                            android:src="@drawable/profilsekolah"></ImageView>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -103,7 +103,7 @@
                             android:layout_marginTop="40dp"
                             android:background="@color/white"
                             android:onClick="informasi"
-                            android:src="@drawable/promote"></ImageView>
+                            android:src="@drawable/informasi2"></ImageView>
 
                         <TextView
                             android:layout_width="wrap_content"
