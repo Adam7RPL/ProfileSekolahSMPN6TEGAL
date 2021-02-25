@@ -6,53 +6,55 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
+    <GridLayout
+        android:id="@+id/mainGrid"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="62dp"
-            android:layout_gravity="center"
-            android:background="#D8D6D6"
-            android:gravity="center"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:text="PRESTASI SISWA TINGKAT KABUPATEN/KOTA"
-            android:textSize="20dp"
-            android:textStyle="bold">
-
-        </TextView>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:layout_weight="1"
-            android:background="@color/black"
-            android:padding="15dp">
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="9"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:rowCount="4">
 
 
-            <ImageView
-                android:layout_width="230dp"
-                android:layout_height="230dp"
-                android:background="@drawable/kodim2"
-                >
-            </ImageView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="135dp"
+        android:layout_height="125dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/kodim2" />
+
+    </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="161dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp">
 
             <TextView
-                android:layout_width="254dp"
-                android:layout_height="230dp"
-                android:paddingLeft="17dp"
-                android:text="Lomba tingkat kota/kabupaten ini di selenggarakan tanggal 19 Agustus 2019 di Kodim 0712 Kabupaten Tegal"
-                android:textColor="@color/white"
+                android:layout_width="176dp"
+                android:layout_height="125dp"
+                android:gravity="center"
+                android:text="Juara 1 lomba Marching Band tingkat Kota/Kabupaten Tegal"
+                android:textColor="@color/black"
+                android:textSize="16dp"
                 android:textStyle="bold">
 
             </TextView>
-
-        </LinearLayout>
-
-    </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </GridLayout>
 
 </RelativeLayout>
