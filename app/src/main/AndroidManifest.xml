@@ -4,12 +4,11 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logosmp6"
         android:label="SMPN 6 TEGAL"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProfileSekolahSMPN6TEGAL">
-        <activity android:name=".SplashActivity"></activity>
         <activity android:name=".SilatActivity" />
         <activity android:name=".MarchingbandActivity" />
         <activity android:name=".BasketActivity" />
