@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProfileSekolahSMPN6TEGAL">
+        <activity android:name=".GuruStaffdanSatpamActivity"></activity>
+        <activity android:name=".BkActivity" />
         <activity android:name=".SilatActivity" />
         <activity android:name=".MarchingbandActivity" />
         <activity android:name=".BasketActivity" />

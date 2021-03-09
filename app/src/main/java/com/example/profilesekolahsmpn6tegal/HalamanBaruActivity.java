@@ -38,6 +38,15 @@ public class HalamanBaruActivity extends AppCompatActivity {
         Intent intent=new Intent(HalamanBaruActivity.this, AgendaActivity.class);
         startActivity(intent);
     }
+    public void bk(View view){
+        Intent intent=new Intent(HalamanBaruActivity.this, BkActivity.class);
+        startActivity(intent);
+    }
+    public void gurustaff(View view){
+        Intent intent=new Intent(HalamanBaruActivity.this, GuruStaffdanSatpamActivity.class);
+        startActivity(intent);
+    }
+
 
 
 }

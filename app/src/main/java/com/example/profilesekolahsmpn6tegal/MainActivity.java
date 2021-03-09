@@ -108,4 +108,14 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void bk(View view){
+        Intent intent=new Intent(MainActivity.this, BkActivity.class);
+        startActivity(intent);
+    }
+    public void gurustaff(View view){
+        Intent intent=new Intent(MainActivity.this, GuruStaffdanSatpamActivity.class);
+        startActivity(intent);
+    }
+
+
 }
