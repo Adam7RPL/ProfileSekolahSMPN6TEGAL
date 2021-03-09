@@ -103,8 +103,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(MainActivity.this, EkstrakulikulerActivity.class);
         startActivity(intent);
     }
-    public void agenda(View view){
-        Intent intent=new Intent(MainActivity.this, AgendaActivity.class);
+    public void jadwal(View view){
+        Intent intent=new Intent(MainActivity.this, JadwalActivity.class);
         startActivity(intent);
     }
 

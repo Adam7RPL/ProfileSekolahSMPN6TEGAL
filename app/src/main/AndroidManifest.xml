@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProfileSekolahSMPN6TEGAL">
-        <activity android:name=".GuruStaffdanSatpamActivity"></activity>
+        <activity android:name=".JadwalActivity"></activity>
+        <activity android:name=".GuruStaffdanSatpamActivity" />
         <activity android:name=".BkActivity" />
         <activity android:name=".SilatActivity" />
         <activity android:name=".MarchingbandActivity" />
@@ -17,7 +18,6 @@
         <activity android:name=".VollyActivity" />
         <activity android:name=".FutsalActivity" />
         <activity android:name=".VisidanmisiActivity" />
-        <activity android:name=".AgendaActivity" />
         <activity android:name=".EkstrakulikulerActivity" />
         <activity android:name=".InformasiActivity" />
         <activity android:name=".PrestasiActivity" />

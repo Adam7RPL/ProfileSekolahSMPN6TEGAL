@@ -34,8 +34,8 @@ public class HalamanBaruActivity extends AppCompatActivity {
         Intent intent=new Intent(HalamanBaruActivity.this, EkstrakulikulerActivity.class);
         startActivity(intent);
     }
-    public void agenda(View view){
-        Intent intent=new Intent(HalamanBaruActivity.this, AgendaActivity.class);
+    public void jadwal(View view){
+        Intent intent=new Intent(HalamanBaruActivity.this, JadwalActivity.class);
         startActivity(intent);
     }
     public void bk(View view){
