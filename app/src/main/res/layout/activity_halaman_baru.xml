@@ -11,7 +11,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="170dp"
-        android:background="@drawable/gerbang">
+        android:background="@drawable/logoijo">
 
     </RelativeLayout>
 
@@ -218,14 +218,14 @@
                     android:layout_width="90dp"
                     android:layout_height="90dp"
                     android:layout_gravity="center"
-                    android:onClick="informasi"
-                    android:src="@drawable/informasi2" />
+                    android:onClick="galeri"
+                    android:src="@drawable/galeri" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:text="INFORMASI"
+                    android:text="GALERI"
                     android:textColor="#000"
                     android:textSize="15sp"
                     android:textStyle="bold" />

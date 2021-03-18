@@ -19,7 +19,7 @@
         <activity android:name=".FutsalActivity" />
         <activity android:name=".VisidanmisiActivity" />
         <activity android:name=".EkstrakulikulerActivity" />
-        <activity android:name=".InformasiActivity" />
+        <activity android:name=".GaleriActivity" />
         <activity android:name=".PrestasiActivity" />
         <activity android:name=".ProfilActivity" />
         <activity android:name=".HalamanBaruActivity" />

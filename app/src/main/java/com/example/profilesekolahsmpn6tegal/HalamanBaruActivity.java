@@ -21,8 +21,8 @@ public class HalamanBaruActivity extends AppCompatActivity {
         Intent intent=new Intent(HalamanBaruActivity.this, ProfilActivity.class);
         startActivity(intent);
     }
-    public void informasi(View view){
-        Intent intent=new Intent(HalamanBaruActivity.this, InformasiActivity.class);
+    public void galeri(View view){
+        Intent intent=new Intent(HalamanBaruActivity.this, GaleriActivity.class);
         startActivity(intent);
     }
     public void visidanmisi(View view){

@@ -10,9 +10,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.profilesekolahsmpn6tegal.HalamanBaruActivity;
-import com.example.profilesekolahsmpn6tegal.R;
-
 public class MainActivity extends AppCompatActivity {
 
     private EditText eName;
@@ -91,8 +88,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(MainActivity.this, PrestasiActivity.class);
         startActivity(intent);
     }
-    public void informasi(View view){
-        Intent intent=new Intent(MainActivity.this, InformasiActivity.class);
+    public void galeri(View view){
+        Intent intent=new Intent(MainActivity.this, GaleriActivity.class);
         startActivity(intent);
     }
     public void visidanmisi(View view){
