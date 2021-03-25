@@ -84,8 +84,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(MainActivity.this, ProfilActivity.class);
         startActivity(intent);
     }
-    public void prestasi(View view){
-        Intent intent=new Intent(MainActivity.this, PrestasiActivity.class);
+    public void fasilitas(View view){
+        Intent intent=new Intent(MainActivity.this, FasilitasActivity.class);
         startActivity(intent);
     }
     public void galeri(View view){

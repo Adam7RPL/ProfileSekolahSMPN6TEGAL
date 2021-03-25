@@ -13,8 +13,8 @@ public class HalamanBaruActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_halaman_baru);
         }
-    public void prestasi(View view){
-        Intent intent=new Intent(HalamanBaruActivity.this, PrestasiActivity.class);
+    public void fasilitas(View view){
+        Intent intent=new Intent(HalamanBaruActivity.this, FasilitasActivity.class);
         startActivity(intent);
     }
     public void profil(View view){

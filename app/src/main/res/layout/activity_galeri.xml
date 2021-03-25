@@ -47,7 +47,8 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="15dp"
-                app:cardCornerRadius="10dp">
+                app:cardCornerRadius="10dp"
+                android:onClick="adiwiata">
 
                 <ImageView
                     android:layout_width="100dp"
@@ -71,7 +72,8 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="15dp"
-                app:cardCornerRadius="10dp">
+                app:cardCornerRadius="10dp"
+                android:onClick="salam">
 
                 <ImageView
                     android:layout_width="100dp"
@@ -95,7 +97,8 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="15dp"
-                app:cardCornerRadius="10dp">
+                app:cardCornerRadius="10dp"
+                android:onClick="jumatsalam">
 
                 <ImageView
                     android:layout_width="100dp"
@@ -119,7 +122,8 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="15dp"
-                app:cardCornerRadius="10dp">
+                app:cardCornerRadius="10dp"
+                android:onClick="pramuka">
 
                 <ImageView
                     android:layout_width="100dp"
@@ -143,7 +147,8 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="15dp"
-                app:cardCornerRadius="10dp">
+                app:cardCornerRadius="10dp"
+                android:onClick="qurban">
 
                 <ImageView
                     android:layout_width="100dp"

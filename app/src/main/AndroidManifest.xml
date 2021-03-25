@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProfileSekolahSMPN6TEGAL">
+        <activity android:name=".QurbanActivity"></activity>
+        <activity android:name=".PramukaActivity" />
+        <activity android:name=".JumatsalamActivity" />
+        <activity android:name=".SalamActivity" />
+        <activity android:name=".AdiwiyataActivity" />
         <activity android:name=".Kelas9Activity" />
         <activity android:name=".Kelas8Activity" />
         <activity android:name=".Kelas7Activity" />
@@ -23,7 +28,7 @@
         <activity android:name=".VisidanmisiActivity" />
         <activity android:name=".EkstrakulikulerActivity" />
         <activity android:name=".GaleriActivity" />
-        <activity android:name=".PrestasiActivity" />
+        <activity android:name=".FasilitasActivity" />
         <activity android:name=".ProfilActivity" />
         <activity android:name=".HalamanBaruActivity" />
         <activity android:name=".MainActivity">
