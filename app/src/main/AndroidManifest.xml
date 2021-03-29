@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProfileSekolahSMPN6TEGAL">
-
+        <activity android:name=".ModulbkActivity"></activity>
+        <activity android:name=".MateribkActivity" />
+        <activity android:name=".ProfilgurubkActivity" />
         <activity android:name=".QurbanActivity" />
         <activity android:name=".PramukaActivity" />
         <activity android:name=".JumatsalamActivity" />
@@ -39,9 +41,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
