@@ -24,7 +24,7 @@
         android:alignmentMode="alignMargins"
         android:columnCount="2"
         android:columnOrderPreserved="false"
-        android:background="#87CEFA"
+        android:background="@color/white"
         android:rowCount="4">
 
 

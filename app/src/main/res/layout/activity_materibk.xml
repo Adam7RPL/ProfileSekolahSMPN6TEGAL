@@ -21,12 +21,14 @@
                 android:textSize="@dimen/_17sdp"
                 android:textStyle="bold"
                 android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp">
             </TextView>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
                 android:textStyle="bold"
                 android:text="MATERI LAYANAN BIMBINGAN DAN KONSELING TAHUN PELAJARAN 2021/2022:
 ">
