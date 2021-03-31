@@ -12,16 +12,15 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private EditText eName;
+    public EditText eName;
     private EditText ePassword;
     private Button eLogin;
     private TextView eAttemptsInfo;
 
-    private String Username = "siswa";
     private String Password = "siswa123";
 
     boolean isValid = false;
-    private int counter = 5;
+    private int counter = 99;
 
 
     @Override
@@ -53,8 +52,6 @@ public class MainActivity extends AppCompatActivity {
 
                         Toast.makeText(MainActivity.this, "Incorrect credentials entered!", Toast.LENGTH_SHORT).show();
 
-                        eAttemptsInfo.setText("No. of attempts remaining: 0" + counter);
-
                         if(counter ==0){
                             eLogin.setEnabled(false);
                         }
@@ -73,8 +70,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private boolean validate(String name,String password){
-        if(name.equals(Username)&& password.equals(Password)){
+    private boolean validate(String name,String password){if( password.equals(Password)){
             return true;
         }
 
