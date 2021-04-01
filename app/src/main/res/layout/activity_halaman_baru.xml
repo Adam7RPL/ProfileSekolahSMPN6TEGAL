@@ -10,7 +10,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="170dp"
-        android:background="@drawable/kumpulanguru">
+        android:background="@drawable/iqbal">
 
     </RelativeLayout>
 
@@ -25,7 +25,7 @@
         android:alignmentMode="alignMargins"
         android:columnCount="2"
         android:columnOrderPreserved="false"
-        android:background="@color/white"
+        android:background="@color/purple_700"
         android:rowCount="4">
 
 
