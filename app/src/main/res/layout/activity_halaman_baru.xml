@@ -7,13 +7,14 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="170dp"
         android:background="@drawable/kumpulanguru">
 
     </RelativeLayout>
+
+
 
     <GridLayout
         android:id="@+id/mainGrid"
