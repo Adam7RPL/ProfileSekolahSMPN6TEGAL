@@ -37,7 +37,7 @@
                     android:layout_marginLeft="2dp"
                     android:layout_marginTop="2dp"
                     android:layout_marginRight="2dp"
-                    android:src="@drawable/galeri" />
+                    android:src="@drawable/perpustakaan" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -102,7 +102,7 @@
                     android:layout_marginLeft="2dp"
                     android:layout_marginTop="2dp"
                     android:layout_marginRight="2dp"
-                    android:src="@drawable/hasilprestasi" />
+                    android:src="@drawable/labkomputer" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -134,7 +134,7 @@
                     android:layout_marginLeft="5sp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="5sp"
-                    android:text="Laboratorium Komputer ataU sering disebut singkat ‘Labkom’ dapat menampung hingga 40 Meja Komputer di SMPN 15 TEGAL ini.Terdapat 2 (dua) ruang ‘Labkom’ dimana tiap ruang mempunyai kapasitas 40 Meja Komputer, serta telah dilengkapi Projector (Infocus) dan dilengkapi dengan spesifikasi Komputer terbaru( Core i3 )
+                    android:text="Laboratorium Komputer ataU sering disebut singkat ‘Labkom’ dapat menampung hingga 40 Meja Komputer di SMPN 6 TEGAL ini. 1 ruangan Lab Komputer telah dilengkapi Projector (Infocus) dan dilengkapi dengan spesifikasi Komputer terbaru( Core i3 )
 "
                     android:textColor="#000"
                     android:textSize="10sp" />
@@ -159,7 +159,7 @@
                     android:layout_marginLeft="2dp"
                     android:layout_marginTop="2dp"
                     android:layout_marginRight="2dp"
-                    android:src="@drawable/guru" />
+                    android:src="@drawable/labbahasa" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -179,7 +179,7 @@
                     android:layout_marginLeft="5sp"
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="5sp"
-                    android:text="LAB IPA"
+                    android:text="LAB BAHASA"
                     android:textColor="#000"
                     android:textSize="10sp"
                     android:textStyle="bold" />
@@ -191,7 +191,7 @@
                     android:layout_marginLeft="5sp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="5sp"
-                    android:text="Laboratorium SMPN 15 TEGAL terdiri dari Lab Fisika , Kimia dan Biologi, masing masing terdiri dari dua lokal, satu lokal digunakan kegiatan PBM sekaligus praktikum untuk siswa"
+                    android:text="Pada era globalisasi saat ini, kemampuan berbahasa menjadi suatu hal yang pentin untuk setiap siswa. Baik itu bahasa asing seperti bahasa Inggris yang menjadi bahasa Internasional, bahasa Indonesia dan bahasa tradisional. Namun sayangnya, kini kemampuan berbahasa orang indonesia masih di bawah rata-rata di karenakan tercampurnya bahasa masa kini yang membuat mereka lupa akan kaidah dari sebuah tata bahasa yang baik dan benar. Oleh karena itu dibutuhkan sebuah fasilitas penunjang yang dapat membantu setiap siswa untuk meningkatkan kemampuan berbahasanya. Salah satunya adalah lab bahasa."
                     android:textColor="#000"
                     android:textSize="10sp" />
 
@@ -215,7 +215,7 @@
                     android:layout_marginLeft="2dp"
                     android:layout_marginTop="2dp"
                     android:layout_marginRight="2dp"
-                    android:src="@drawable/hariguru" />
+                    android:src="@drawable/musholla" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -235,7 +235,7 @@
                     android:layout_marginLeft="5sp"
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="5sp"
-                    android:text="MASJID"
+                    android:text="MUSHOLLA"
                     android:textColor="#000"
                     android:textSize="10sp"
                     android:textStyle="bold" />
@@ -247,69 +247,12 @@
                     android:layout_marginLeft="5sp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="5sp"
-                    android:text="Ibadah adalah kebutuhan dasar setiap kaum muslim dan seiring dengan bertambahnya jumlah siswa siswi di SMPN 15 TEGAL yang sebagian besar beragama Islam berimbas pada kebutuhan sarana ibadah berupa Masjid."
+                    android:text="Ibadah adalah kebutuhan dasar setiap kaum muslim dan seiring dengan bertambahnya jumlah siswa siswi di SMPN 6 TEGAL yang sebagian besar beragama Islam berimbas pada kebutuhan sarana ibadah berupa Musholla."
                     android:textColor="#000"
                     android:textSize="10sp" />
 
 
             </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="170dp"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="12dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="12dp"
-                android:layout_marginBottom="12dp">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="2dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginRight="2dp"
-                    android:src="@drawable/guru" />
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="12dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="12dp"
-                android:layout_marginBottom="12dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="5sp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="5sp"
-                    android:text="GREEN HOUSE"
-                    android:textColor="#000"
-                    android:textSize="10sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="5sp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginRight="5sp"
-                    android:text="greenhouse merupakan sebuah bangunan yang berkerangka atau dibentuk menggelembung, diselubungi bahan bening atau tembus cahaya yang dapat meneruskan cahaya secara optimum untuk produksi dan melindungi tanaman dari kondisi iklim yang merugikan bagi pertumbuhan tanaman .."
-                    android:textColor="#000"
-                    android:textSize="10sp" />
-
-
-            </androidx.cardview.widget.CardView>
-
 
         </GridLayout>
     </ScrollView>

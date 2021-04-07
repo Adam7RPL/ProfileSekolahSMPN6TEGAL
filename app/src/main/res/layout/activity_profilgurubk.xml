@@ -1,9 +1,141 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ProfilgurubkActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar Guru BK KELAS 7"
+            android:textSize="@dimen/_17sdp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_60sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:gravity="center_horizontal">
+        </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAMA           : Naning Dwi Setyo Astuti M.pd"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp">
+    </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIP                 : 19640306 199512 2001"
+            android:textColor="#FB0031"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_10sdp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ALAMAT       : Jl. Jalak Timur No.12 Pekauman Tegal"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_10sdp">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar Guru BK KELAS 8"
+            android:textSize="@dimen/_17sdp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_60sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:gravity="center_horizontal">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAMA        : Dannie Hartanti S.Psi"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_20sdp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIP              : 19760813 200501 2010"
+            android:textColor="#FB0031"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_10sdp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ALAMAT    : Jl. Cendrawasih No.122 Randugunting Tegal"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_10sdp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar Guru BK KELAS 9"
+            android:textSize="@dimen/_17sdp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_60sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:gravity="center_horizontal">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAMA             : Twi Tandar Atmaja S.pd"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_20sdp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIP                   : 19901019 201502 1004"
+            android:textColor="#FB0031"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_10sdp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ALAMAT         : Jl. Ketilang No.13 Randugunting Tegal"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/_10sdp">
+        </TextView>
+    </LinearLayout>
+</RelativeLayout>
