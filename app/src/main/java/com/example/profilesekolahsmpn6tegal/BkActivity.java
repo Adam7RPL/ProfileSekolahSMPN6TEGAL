@@ -21,8 +21,4 @@ public class BkActivity extends AppCompatActivity {
         Intent intent=new Intent(BkActivity.this, MateribkActivity.class);
         startActivity(intent);
     }
-    public void modulbk(View view){
-        Intent intent=new Intent(BkActivity.this, ModulbkActivity.class);
-        startActivity(intent);
-    }
 }
