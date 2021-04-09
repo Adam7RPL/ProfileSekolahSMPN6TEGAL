@@ -1,11 +1,8 @@
-package com.example.profilesekolahsmpn6tegal;
+package com.profilesekolah.smpn6tegal;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.MotionEvent;
-import android.view.View;
-import android.widget.TextView;
 
 public class ProfilActivity extends AppCompatActivity {
 

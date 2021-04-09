@@ -1,4 +1,4 @@
-package com.example.profilesekolahsmpn6tegal;
+package com.profilesekolah.smpn6tegal;
 
 import org.junit.Test;
 

@@ -1,14 +1,14 @@
-package com.example.profilesekolahsmpn6tegal;
+package com.profilesekolah.smpn6tegal;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MateribkActivity extends AppCompatActivity {
+public class VisidanmisiActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_materibk);
+        setContentView(R.layout.activity_visidanmisi);
     }
 }

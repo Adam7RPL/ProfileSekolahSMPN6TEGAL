@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.profilesekolahsmpn6tegal">
+    package="com.profilesekolah.smpn6tegal">
 
     <application
         android:allowBackup="true"
@@ -9,28 +9,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProfileSekolahSMPN6TEGAL">
-        <activity android:name=".MateribkActivity" />
-        <activity android:name=".ProfilgurubkActivity" />
-        <activity android:name=".QurbanActivity" />
-        <activity android:name=".PramukaActivity" />
-        <activity android:name=".JumatsalamActivity" />
-        <activity android:name=".SalamActivity" />
-        <activity android:name=".AdiwiyataActivity" />
-        <activity android:name=".GuruStaffdanSatpamActivity" />
-        <activity android:name=".BkActivity" />
-        <activity android:name=".VisidanmisiActivity" />
-        <activity android:name=".GaleriActivity" />
-        <activity android:name=".FasilitasActivity" />
-        <activity android:name=".ProfilActivity" />
-        <activity android:name=".HalamanBaruActivity" />
-        <activity android:name=".SplashActivity">
+        <activity android:name="com.profilesekolah.smpn6tegal.MateribkActivity" />
+        <activity android:name="com.profilesekolah.smpn6tegal.ProfilgurubkActivity" />
+        <activity android:name="com.profilesekolah.smpn6tegal.QurbanActivity" />
+        <activity android:name="com.profilesekolah.smpn6tegal.PramukaActivity" />
+        <activity android:name="com.profilesekolah.smpn6tegal.JumatsalamActivity" />
+        <activity android:name="com.profilesekolah.smpn6tegal.SalamActivity" />
+        <activity android:name="com.profilesekolah.smpn6tegal.AdiwiyataActivity" />
+        <activity android:name="com.profilesekolah.smpn6tegal.GuruStaffdanSatpamActivity" />
+        <activity android:name="com.profilesekolah.smpn6tegal.BkActivity" />
+        <activity android:name="com.profilesekolah.smpn6tegal.VisidanmisiActivity" />
+        <activity android:name="com.profilesekolah.smpn6tegal.GaleriActivity" />
+        <activity android:name="com.profilesekolah.smpn6tegal.FasilitasActivity" />
+        <activity android:name="com.profilesekolah.smpn6tegal.ProfilActivity" />
+        <activity android:name="com.profilesekolah.smpn6tegal.HalamanBaruActivity" />
+        <activity android:name="com.profilesekolah.smpn6tegal.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.profilesekolah.smpn6tegal.MainActivity" />
     </application>
 
 </manifest>
