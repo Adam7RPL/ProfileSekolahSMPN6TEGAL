@@ -254,6 +254,120 @@
 
             </androidx.cardview.widget.CardView>
 
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/ruangserbaguna" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5sp"
+                    android:text="RUANG SERBAGUNA"
+                    android:textColor="#000"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="5sp"
+                    android:text=" SMPN 6 TEGAL memiliki 1 ruang serbaguna, Ruang serbaguna merupakan suatu ruang yang dapat diubah-ubah sesuai dengan fungsi dan kebutuhan penghuninya. Biasanya dapat digunakan pula sebagai ruang menerima tamu yang datang ke SMPN 6 TEGAL. Menurutnya lagi, dalam menata layout ruang serbaguna dalam sebuah hunian perlu menatanya selaras dengan masing-masing fungsi ruang."
+                    android:textColor="#000"
+                    android:textSize="10sp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/ruangkelas"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5sp"
+                    android:text="RUANG KELAS"
+                    android:textColor="#000"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="5sp"
+                    android:text=" SMPN 6 TEGAL MEMILIKI 24 Ruang Kelas, Ruang Kelas adalah suatu ruangan dalam bangunan sekolah, yang berfungsi sebagai tempat untuk kegiatan tatap muka dalam proses Kegiatan Belajar Mengajar (KBM). Mebeler dalam ruangan ini terdiri dari meja siswa, kursi siswa, meja guru, lemari kelas, papan tulis, serta aksesoris ruangan lainnya yang sesuai. Ukuran yang umum adalah 9m x 8m. Ruang kelas memiliki syarat kelayakan dan standar tertentu, misalnya ukuran, pencahayaan alami, sirkulasi udara, dan persyaratan lainnya yang telah dibakukan oleh pihak berwenang terkait.
+
+Posisi kelas ada dua, yaitu kelas berpindah tunggal/ganda dan kelas tetap."
+                    android:textColor="#000"
+                    android:textSize="10sp" />
+
+
+            </androidx.cardview.widget.CardView>
+
         </GridLayout>
     </ScrollView>
 </RelativeLayout>
